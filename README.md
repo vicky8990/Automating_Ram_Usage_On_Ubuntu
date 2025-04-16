@@ -95,4 +95,31 @@ Force high RAM or temporarily lower the threshold to verify alerts:
     # Temporarily set threshold to 1% to test:
         THRESHOLD=1
 
+The Output Should Look like this.
+      
+ 2025-04-16 19:11:07 - Used: 613Mi, Free: 3.0Gi
+ 2025-04-16 19:11:16 - Used: 612Mi, Free: 3.0Gi
+ 2025-04-16 19:11:24 - Used: 613Mi, Free: 3.0Gi
+ 2025-04-16 19:12:06 - Used: 613Mi, Free: 3.0Gi
+ 2025-04-16 19:13:05 - Used: 613Mi, Free: 3.0Gi
+ 2025-04-16 19:14:07 - Used: 612Mi, Free: 3.0Gi
+ 2025-04-16 19:15:07 - Used: 615Mi, Free: 3.0Gi
+ RAM usage at Wed Apr 16 19:16:02 UTC 2025:
+ Mem:           3.7Gi       610Mi       3.0Gi       3.8Mi       244Mi       3.1Gi
+ -------------------------------
+ RAM usage at Wed Apr 16 19:16:07 UTC 2025:
+ Mem:           3.7Gi       611Mi       3.0Gi       3.8Mi       244Mi       3.1Gi
+ -------------------------------
+ RAM usage at Wed Apr 16 19:17:04 UTC 2025:
+ Mem:           3.7Gi       611Mi       3.0Gi       3.8Mi       244Mi       3.1Gi
+ -------------------------------
+ RAM usage at Wed Apr 16 19:17:20 UTC 2025:
+ Mem:           3.7Gi       611Mi       3.0Gi       3.8Mi       244Mi       3.1Gi
+ -------------------------------
+ RAM usage at Wed Apr 16 19:17:24 UTC 2025:
+ Mem:           3.7Gi       611Mi       3.0Gi       3.8Mi       244Mi       3.1Gi
+ -------------------------------
+ RAM usage at Wed Apr 16 19:18:07 UTC 2025:
+ Mem:           3.7Gi       611Mi       3.0Gi       3.8Mi       244Mi       3.1Gi
+
      
